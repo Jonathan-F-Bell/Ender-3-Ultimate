@@ -17,7 +17,6 @@ Using the BLTouch on an Ender-3 requires the repurposing of the buzzer data line
 * Small Knife (Olfa/X-Acto/Etc.)
   * I use and highly suggest [this Olfa Knife](https://olfa.com/professional/product/stainless-steel-precision-knife-svr-2/)
 * [Mini USB Cable (NOT Micro USB)](https://www.monoprice.com/product?p_id=3896)
-* 1 Sheet of Printer Paper
 
 
 
