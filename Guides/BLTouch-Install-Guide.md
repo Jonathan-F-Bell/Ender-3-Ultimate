@@ -47,5 +47,5 @@ Using the BLTouch on an Ender-3 requires the repurposing of the buzzer data line
 12.  Tuck the excess BLTouch cable into the empty space at the back of the case and reattach the bottom cover. *Reminder:* There are 2 short screws that go on the bottom front of the case, 1 short screw that goes on the top of the case, and 1 long screw that goes in the back middle of the bottom of the case. ![BLTouch Cable](/Images/Photos/IMG_20200130_110919.jpg)
 13. Set the printer upright.
 14. If you haven't already, flash the firmware using [this guide](/Guides/Firmware-Flash-Guide.md).
-15. Hardware and software installation is now complete! Before the BLTouch will function correctly, it must be configured. Follow this guide to configure your BLTouch.
+15. Hardware and software installation is now complete! Before the BLTouch will function correctly, it must be configured. Follow [this guide](/Guides/BLTouch-Config-Guide.md) to configure your BLTouch.
 
