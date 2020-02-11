@@ -25,7 +25,7 @@ Using the BLTouch on an Ender-3 requires the repurposing of the buzzer data line
 
 1. Open the BLTouch Kit and check that you have all the parts listed in the Packing List section of the BLTouch Guidebook.
 2. Power off and unplug the printer.
-3. Using a Hex Wrench, remove the two screws that connect the fan shroud to the print head. Be careful not to stress the fan wires once the fan shroud is disconnected. _img 101251_
+3. Using a Hex Wrench, remove the two screws that connect the fan shroud to the print head. Be careful not to stress the fan wires once the fan shroud is disconnected. ![Photo of fan shroud screws](/Images/Photos/IMG_20200130_101251.jpg)
 4. Attach the metal bracket in front of the fan shroud using the included M3*8 screws. _img 101351, 101431, 101602_
 5. Connect the white connector of the included cable to the back of the BLTouch. Ensure that the colors of the wires, when looking at the plug of the BLTouch, are in the following order: Blue, Red, Yellow, Black, White (See Image). We have had kits ship with these wires inserted into the connector in the wrong order, which can cause major issues. _img 102249_
 6. Attach the BLTouch to the bracket using the included M3*6 screws. Note that the screws should be inserted from the bottom up, as the threads are in the bracket, not the BLTouch. _img 102310, 102622_
