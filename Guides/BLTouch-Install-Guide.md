@@ -20,6 +20,12 @@ Using the BLTouch on an Ender-3 requires the repurposing of the buzzer data line
 
 
 
+##### Operating System Requirements
+
+Although most steps in this guide that involve a computer can be done using macOS, Windows, or Linux, unfortunately the software for the ISP programmer that comes with the BLTouch kit is windows only. As such, a Windows computer or a Mac running bootcamp will be necessary to flash the bootloader unless an alternate method is used. 
+
+
+
 ### A. Install BLTouch On Print Head
 
 1. Open the BLTouch Kit and check that you have all the parts listed in the Packing List section of the BLTouch Guidebook.
