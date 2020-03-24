@@ -44,21 +44,21 @@ This guide comes with a customized Marlin firmware that has been configured to w
 
 1. Download and install the Arduino IDE from [here](https://www.arduino.cc/en/Main/Software).
 2. If you haven't already done so in previous guides, clone the repo to your computer or download it as a zip with [this link](https://github.com/Jonathan-F-Bell/Ender-3-Ultimate/archive/master.zip). Unzip the download.
-3. Within the download, navigate to Ender-3-Ultimate -> Firmware -> Marlin and open the "Marlin.ino" Arduino file in the Arduino IDE. _marlinFolder img_
-4. Next, we need to add board info for the Sanguino board used in the Ender-3 to the Arduino software. Navigate to the Arduino preferences from the menu bar and paste the following URL into the "Additional Boards Manager URLs" section - https://raw.githubusercontent.com/Lauszus/Sanguino/master/package_lauszus_sanguino_index.json _boardURL img_
+3. Within the download, navigate to Ender-3-Ultimate -> Firmware -> Marlin and open the "Marlin.ino" Arduino file in the Arduino IDE. ![Marlin Folder Path](/Images/Photos/marlinFolder.png)
+4. Next, we need to add board info for the Sanguino board used in the Ender-3 to the Arduino software. Navigate to the Arduino preferences from the menu bar and paste the following URL into the "Additional Boards Manager URLs" section - https://raw.githubusercontent.com/Lauszus/Sanguino/master/package_lauszus_sanguino_index.json ![Board URL Location](/Images/Photos/boardURL.png)
 5. Click OK to close preferences.
-6. In the Arduino menu bar, go to Tools -> Board -> Boards Manager... _boardsManagerMenu img_
-7. In the Boards Manager window, search for "Sanguino" and click "Install", then close the Boards Manager. _boardManager img_
-8. In the Arduino menu bar, go to Tools -> Board and select "Sanguino" from the bottom of the boards list. _sanguinoBoardList img_
-9. In the Arduino menu bar, go to Tools -> Processor and select "ATmega1284 or ATmega1284P (16 MHz)" from the list. _processorSelect img_
-10. In the Arduino menu bar, go to Sketch -> Include Library -> Manage Libraries... _manageLibraryMenu img_
-11. In the Library Manager search for and install "U8glib". _u8glib img_
+6. In the Arduino menu bar, go to Tools -> Board -> Boards Manager... ![Boards Manager Menu](/Images/Photos/boardsManagerMenu.png)
+7. In the Boards Manager window, search for "Sanguino" and click "Install", then close the Boards Manager. ![Board manager popup](/Images/Photos/boardManager.png)
+8. In the Arduino menu bar, go to Tools -> Board and select "Sanguino" from the bottom of the boards list. ![Board selection menu](/Images/Photos/sanguinoBoardList.png)
+9. In the Arduino menu bar, go to Tools -> Processor and select "ATmega1284 or ATmega1284P (16 MHz)" from the list. ![Processor select menu](/Images/Photos/processorSelect.png)
+10. In the Arduino menu bar, go to Sketch -> Include Library -> Manage Libraries... ![Manage Library menu item](/Images/Photos/manageLibraryMenu.png)
+11. In the Library Manager search for and install "U8glib". ![U8glib install](/Images/Photos/u8glib.png)
 12. Make sure your Ender-3 is turned off and disconnected from power. 
 13. Plug the Micro USB cable into your computer and the port on the front of your Ender-3.
 14. Your Ender-3 should power up. If it doesn't, check the USB connection.
-15. In the Arduino menu bar, go to Tools -> Port -> and select the port your printer is on. This is likely the only port that will show up. If you see multiple ports, unplug any other serial devices from your computer (Arduinos, firmware flashers, Raspberry Pis, etc.) and try again. _portSelect img_
-16. Click the forward arrow in the top left of the Arduino IDE. This will compile and upload the firmware. _uploadFirmware img_
-17. Wait until the progress bar finishes and the Arduino IDE says "Done Uploading". _doneUploading img_
+15. In the Arduino menu bar, go to Tools -> Port -> and select the port your printer is on. This is likely the only port that will show up. If you see multiple ports, unplug any other serial devices from your computer (Arduinos, firmware flashers, Raspberry Pis, etc.) and try again. ![Port select menu](/Images/Photos/portSelect.png)
+16. Click the forward arrow in the top left of the Arduino IDE. This will compile and upload the firmware. ![Upload firmware button](/Images/Photos/uploadFirmware.png)
+17. Wait until the progress bar finishes and the Arduino IDE says "Done Uploading". ![Done uploading screen](/Images/Photos/doneUploading.png)
 18. Your printer should now begin to boot into its new firmware. It is now safe to unplug the USB cable, reconnect your printer to power, and turn it on normally.
 19. Before using your BLTouch equipped printer, you MUST configure the z-offset of the BLTouch or your printer WILL crash or print poorly. [This guide](/Guides/BLTouch-Config-Guide.md) will walk you through the steps to configure the z-offset and other refinements.
 
