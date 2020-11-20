@@ -2,7 +2,7 @@
 
 This guide will walk you through the steps of flashing new firmware to your Ender-3 to enable the use of a BLTouch.
 
-**Note:** This guide assumes that you have already flashed a bootloader to your Ender-3. If you haven't, follow this guide _insert link_ to do so.
+**Note:** This guide assumes that you have already flashed a bootloader to your Ender-3. If you haven't, follow [this guide](https://github.com/Jonathan-F-Bell/Ender-3-Ultimate/blob/master/Guides/Bootloader-Flash-Guide.md) to do so.
 
 ##### Materials/Software
 
